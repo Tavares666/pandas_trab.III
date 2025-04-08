@@ -8,6 +8,7 @@ n3 = input("Informe a N3: ")
 with open('notas.txt', 'a') as arquivo:
     arquivo.write(nome + ',' + n1 + ',' + n2 + ',' + n3 + '\n')
 
+
 # Exportar p/ o  notas.xlsx
 df = pd.read_csv('notas.txt', header=None, names=['Nome', 'N1', 'N2', 'N3'])
 df.to_excel('notas.xlsx', index=False, sheet_name='Notas')

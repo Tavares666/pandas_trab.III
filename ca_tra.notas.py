@@ -68,6 +68,7 @@ def exibir_reprovados(reprovados):
         print("Reprovados:")
         print(pd.DataFrame(reprovados).to_string(index=False))
 
+
 if __name__ == "__main__":
     notas = 'notas.txt'
     saida = 'resultados.xlsx'

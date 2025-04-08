@@ -13,3 +13,4 @@ Eu tive mais dificuldade com o git do que com o trabalho em si, porque já uso a
 •	O arquivo de entrada é 'notas.txt' e a saída é 'resultados.xlsx'.
 •	O código usa a biblioteca pandas para manipular e salvar os dados em Excel.
 
+
